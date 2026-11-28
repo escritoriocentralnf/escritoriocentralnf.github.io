@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /painel
+Disallow: /redes/
+
+Sitemap: https://www.escritoriocentralnf.com.br/sitemap.xml

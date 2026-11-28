@@ -1,0 +1,14 @@
+{
+  "name": "Escritório Central — Painel",
+  "short_name": "Escritório Central",
+  "start_url": "/painel",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0A2240",
+  "theme_color": "#0A2240",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "/static/marca/icone.png", "sizes": "1080x1080", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/static/marca/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

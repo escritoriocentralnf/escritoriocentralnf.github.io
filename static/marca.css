@@ -1,0 +1,42 @@
+/* =========================================================
+   IDENTIDADE VISUAL — Escritório Central Regularização de Imóveis
+   Fonte única de verdade para cores, tipografia e espaçamentos.
+   Extraído dos arquivos em /identidade-visual:
+   - Azul institucional  #0A2240 (fundo do logotipo / texto da marca)
+   - Verde da marca      #76BD22 (isotipo e "ESCRITÓRIO CENTRAL")
+   - Cinza da assinatura #A8A8A8 ("REGULARIZAÇÃO DE IMÓVEIS")
+   - Tipografia: Gotham (Black/Ultra nos títulos, Book/Medium no texto)
+   Regras: verde não é usado para texto pequeno sobre branco (contraste
+   insuficiente); para links/texto usa-se --verde-texto.
+   ========================================================= */
+
+@font-face { font-family: "Gotham"; src: url("/static/fontes/GothamBook.ttf") format("truetype"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Gotham"; src: url("/static/fontes/GothamMedium.ttf") format("truetype"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Gotham"; src: url("/static/fontes/GothamBold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Gotham"; src: url("/static/fontes/Gotham-Black.otf") format("opentype"); font-weight: 900; font-display: swap; }
+
+:root {
+  --azul: #0A2240;
+  --azul-2: #13325C;      /* azul de apoio (hover, faixas) */
+  --azul-3: #E8EDF4;      /* azul muito claro (fundos de seção) */
+  --verde: #76BD22;
+  --verde-escuro: #5E9A18;
+  --verde-texto: #3F6E0C; /* verde legível sobre branco (AA) */
+  --verde-claro: #EEF7E3;
+  --cinza: #A8A8A8;
+  --cinza-texto: #5B6472;
+  --linha: #DDE2E9;
+  --fundo: #FFFFFF;
+  --fundo-2: #F5F7FA;
+  --texto: #0A2240;
+  --perigo: #B42318;
+  --alerta: #B54708;
+
+  --fonte: "Gotham", "Montserrat", "Segoe UI", Arial, sans-serif;
+  --fonte-titulo: "Gotham", "Montserrat", "Segoe UI", Arial, sans-serif;
+
+  --raio: 4px;            /* a marca é geométrica e reta: cantos quase retos */
+  --sombra: 0 1px 2px rgba(10, 34, 64, .08), 0 4px 16px rgba(10, 34, 64, .06);
+  --largura: 1120px;
+  --gutter: 16px;
+}
